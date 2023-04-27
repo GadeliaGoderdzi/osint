@@ -1,6 +1,6 @@
 from summary import spy
 from search import collector
-
+import nltk
 
 # input from user
 query1 = input("Who? and What?")
