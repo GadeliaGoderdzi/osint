@@ -1,6 +1,6 @@
 import streamlit as st
-import nltk
 nltk.download("popular")
+import nltk
 from search import collector
 from textblob import TextBlob
 from newspaper import Article
