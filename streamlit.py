@@ -1,5 +1,5 @@
 import streamlit as st
-from TextBlob import TextBlob
+from TextBlob import textblob
 
 header = st.container()
 input = st.container()
