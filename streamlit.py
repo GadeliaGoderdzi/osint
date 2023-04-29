@@ -1,6 +1,6 @@
 import streamlit as st
 from TextBlob import textblob
-from nltk-develop import nltk
+from NLTK import nltk
 
 header = st.container()
 input = st.container()
