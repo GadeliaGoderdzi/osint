@@ -1,8 +1,6 @@
 import streamlit as st
-import nltk
-from search import collector
-from textblob import TextBlob
-from newspaper import Article
+import TextBlob
+import Article
 
 header = st.container()
 input = st.container()
