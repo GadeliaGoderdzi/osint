@@ -1,6 +1,6 @@
 import streamlit as st
-from textblob import TextBlob
-from newspaper import Article
+import TextBlob
+import Article
 
 header = st.container()
 input = st.container()
