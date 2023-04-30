@@ -15,11 +15,11 @@ except ImportError:
 list_links = []
 
 def collector(source):
-    counter = 0
-    if counter < 10:
-        for j in search(source,num_results=1, ):   #tld="co.in" , stop=10, pause=2
+    count = 0
+    if count < 10:
+        for j in search(source,num_results=1):   #tld="co.in" , stop=10, pause=2
             list_links.append(j)
-            counter += 1
+            count += 1
     return list_links
 
 #-------------end of functions--------------------------------
