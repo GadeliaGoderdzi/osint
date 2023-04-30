@@ -14,7 +14,7 @@ except ImportError:
     print("No module named 'google' found")
 list_links = []
 def collector(source):
-    for j in search(source, num_results=10, lang="en", proxy=None, advanced=False, sleep_interval=0, timeout=5):   #tld="co.in" source,num_results=10, stop=20, pause=2
+    for j in search(source,num_results=10, stop=20, pause=2):   #tld="co.in" 
         list_links.append(j)
     return list_links
 
