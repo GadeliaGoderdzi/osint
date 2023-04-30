@@ -13,8 +13,9 @@ try:
 except ImportError:
     print("No module named 'google' found")
 list_links = []
-counter = 0
+
 def collector(source):
+    counter = 0
     if counter < 10:
         for j in search(source,num_results=1, ):   #tld="co.in" , stop=10, pause=2
             list_links.append(j)
