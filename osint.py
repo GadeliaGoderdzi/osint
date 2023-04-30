@@ -1,5 +1,5 @@
 from summary import spy
-from search import collector
+from search2 import collector
 import nltk
 
 # input from user
