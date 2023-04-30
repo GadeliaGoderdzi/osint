@@ -40,7 +40,7 @@ while num_searches>0:
     except ImportError:
         print("No module named 'google' found")
     list_links = []
-    for j in search(query, num_results=10,stop=10, pause=2):   #tld="co.in" , stop=10, pause=2
+    for j in search(query, num_results=10, pause=2):   #tld="co.in" , stop=10, pause=2
             list_links.append(j)
     num_searches = num_searches - 1
 # links_output = st.container()
