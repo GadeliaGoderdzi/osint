@@ -1,5 +1,5 @@
 import streamlit as st
-from TextBlob import textblob
+#from TextBlob import textblob
 from NLTK import nltk
 
 header = st.container()
