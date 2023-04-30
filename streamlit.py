@@ -9,7 +9,7 @@ with header:
     st.header('Hello this is my OSINT tool')
 
 try:
-    from googlesearch.search import search
+    from googlesearch.searcher import search
 except ImportError:
     print("No module named 'google' found")
 list_links = []
